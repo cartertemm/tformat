@@ -82,6 +82,8 @@ def format_time(seconds, ms=False, pretty=True):
 		lst.append(make_plural(minutes > 1, str(minutes) + " minute"))
 	if seconds > 0:
 		lst.append(make_plural(seconds > 1, str(seconds) + " second"))
+	if len(lst) == 0:
+		return "less than a second"
 	if pretty:
 		return pretty_sequence(lst, "and")
 	return ", ".join(lst)
