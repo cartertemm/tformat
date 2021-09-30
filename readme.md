@@ -4,9 +4,10 @@ You have a timestamp from somewhere (a database, elapsed timer, whatever) that y
 
 Google presents a variety of solutions which are either half baked, partially broken, unnecessarily complex or just plain ugly.
 
-I got tired of implementing this in different ways across project after project, so here we are.
+I got tired of implementing this in different ways across different projects, so here we are.
 
 ```
+>>> from tformat import format_time
 >>> format_time(290390, ms=False)
 '3 days, 8 hours, 39 minutes and 50 seconds'
 
@@ -17,20 +18,24 @@ I got tired of implementing this in different ways across project after project,
 '2662 weeks, 2 days, 20 hours, 8 minutes and 14 seconds'
 ```
 
-## Using
+## Installation
 
+From pip:
 ```
-git clone http://github.com/cartertemm/tformat
+pip install tformat
+```
+Or from source:
+```
+git clone https://github.com/cartertemm/tformat
 cd tformat
 pip install .
 ```
 
-or just copy the file (or it's contents) to where ever it fits in your project.
+Or just copy the file (or it's contents) to where ever it fits in your project.
 
 ## Licensing
 
-As part of an effort to publicize more of the code/libraries I use every day, this software is both released under the MIT and into the public domain.
-Choose which ever you prefer.
+As part of an effort to publicize more of the code/libraries I use every day, this software is both released under the MIT and into the public domain. Choose which ever you prefer.
 
 ### MIT
 
