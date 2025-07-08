@@ -26,7 +26,7 @@ pip install tformat
 ```
 Or from source:
 ```
-git clone https://github.com/cartertemm/tformat
+git clone https://github.com/cartertemm/tformat.git
 cd tformat
 pip install .
 ```
@@ -39,7 +39,7 @@ As part of an effort to publicize more of the code/libraries I use every day, th
 
 ### MIT
 
-Copyright (c) 2021 Carter Temm
+Copyright (c) 2025 Carter Temm
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
