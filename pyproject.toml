@@ -1,0 +1,23 @@
+[project]
+name = "tformat"
+version = "0.1.0"
+description = "Efficient conversion of timestamps to human-readable equivalents"
+readme = "README.md"
+authors = [
+    { name = "Carter Temm", email = "cartertemm@gmail.com" }
+]
+classifiers = [
+	"Programming Language :: Python :: 2",
+	"Programming Language :: Python :: 3",
+	"Operating System :: OS Independent",
+	"Development Status :: 5 - Production/Stable",
+	"Topic :: Utilities"
+]
+license = "MIT OR CC0-1.0"
+license-files = ["license.md"]
+requires-python = ">=2"
+dependencies = []
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
